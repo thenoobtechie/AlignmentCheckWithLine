@@ -51,7 +51,7 @@ class AppHomeState extends State<AppHome> {
     );
   }
 
-  static double angleOf(Offset p1, Offset p2) {
+  double angleOf(Offset p1, Offset p2) {
     // NOTE: Remember that most math has the Y axis as positive above the X.
     // However, for screens we have Y as positive below. For this reason,
     // the Y values are inverted to get the expected results.
