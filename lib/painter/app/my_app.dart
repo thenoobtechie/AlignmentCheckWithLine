@@ -107,7 +107,7 @@ class AppHomeState extends State<AppHome> {
               borderRadius: BorderRadius.circular(8)),
           padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
           child: Text("Current angle: ${direction.toInt()}",
-              style: const TextStyle(color: Colors.white))))
+              style: const TextStyle(color: Colors.white))));
 
 
   Widget getPickImageButton() =>
